@@ -9,6 +9,7 @@ const Roomtemp = () => import('@/views/roomtemp/index.vue')
 const Hydraulic = () => import('@/views/hydraulic/index.vue')
 const Heatmeter = () => import('@/views/heatmeter/index.vue')
 const Emergencyrepair = () => import('@/views/emergencyrepair/index.vue')
+const Emergencydrill = () => import('@/views/emergencydrill/index.vue')
 const Valvewell = () => import('@/views/valvewell/index.vue')
 const Circpump = () => import('@/views/circpump/index.vue')
 const Makeupwater = () => import('@/views/makeupwater/index.vue')
@@ -32,6 +33,7 @@ const router = createRouter({
     { path: '/hydraulic', name: 'hydraulic', component: Hydraulic },
     { path: '/heatmeter', name: 'heatmeter', component: Heatmeter },
     { path: '/emergencyrepair', name: 'emergencyrepair', component: Emergencyrepair },
+    { path: '/emergencydrill', name: 'emergencydrill', component: Emergencydrill },
     { path: '/valvewell', name: 'valvewell', component: Valvewell },
     { path: '/circpump', name: 'circpump', component: Circpump },
     { path: '/makeupwater', name: 'makeupwater', component: Makeupwater },
